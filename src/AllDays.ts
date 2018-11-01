@@ -8,3 +8,4 @@ console.log(`Day 1 answer 1 is ${new Day1(Day1Input).getAnswer1()}`);
 console.log(`Day 1 answer 2 is ${new Day1(Day1Input).getAnswer2()}`);
 
 console.log(`Day 2 answer 1 is ${new Day2(Day2Input).getAnswer1()}`);
+console.log(`Day 2 answer 2 is ${new Day2(Day2Input).getAnswer2()}`);
