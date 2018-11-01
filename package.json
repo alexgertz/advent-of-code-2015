@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
+    "pretest": "yarn run lint",
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "allDays": "tsc && node build/AllDays.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.9",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.5"
+  },
+  "dependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "@types/node": "^10.12.2"
+  }
+}
